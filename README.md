@@ -5,16 +5,17 @@ Inhoud van opdracht
 This assignment will be a bit more challenging than the last. Even though the first part is basically something, you've already done. But we're actually going to use this pipeline for something more useful now. 😉 See the points below of what I expect from you.
 
 
-
-Make a GitHub Action (GA) that does the following
+<Make a GitHub Action (GA) that does the following>
 * Build a project from source
 * Packages that project into a Docker container
 * Pushes that container into the GitHub container registry
-Make a Terraform main.tf that does the following (include main.tf in the git repo)
+
+<Make a Terraform main.tf that does the following (include main.tf in the git repo)>
 * Connects to your local Docker daemon
 * Pulls the image built from the GA in step 1
 * Provisioning of the infrastructure on your local machine
-Bonus points
+
+<Bonus points>
 * Automatically format the Terraform code with GA
 * Tried out Nix to build the image
 * The GA creates a PR if the Terraform code isn't formatted correctly
